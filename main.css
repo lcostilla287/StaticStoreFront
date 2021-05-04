@@ -1,0 +1,134 @@
+body{
+    font-size: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: black url(Assets/DarkPaperTexture.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1{
+    color: yellowgreen;
+    font-size: 2.5em;
+    margin: 1.0em 0 1.0em 0;
+    padding: 0;
+}
+h2{
+    color: yellowgreen;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 1.0em 0 1.0em 0;
+    padding: 0;
+}
+p{
+    color: limegreen;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0px 0.5em 0.5em 0px;
+}
+a, a:visited{
+    color: lime;
+}
+a:hover{
+    color: mediumseagreen;
+}
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding:  0 2.5em;
+}
+div.clear{
+    clear: both;
+    font-size: 2%;
+}
+header{
+    padding: 2.0em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: rgb(91, 122, 121) center 0px;
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellowgreen;
+    font-size: 7.5em;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+header h2{
+    font-weight: 800;
+    font-size: 4.0em;
+    color: yellowgreen;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: -0.1em;
+}
+nav{
+    font-size: 2.0em;
+    letter-spacing: 0.05em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    padding: 0.5em 0.7em;
+}
+nav.utilityMenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: rgb(43, 41, 41);
+    height: 1.3em;
+}
+nav.utilityMenu li{
+    padding: 0.06em 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav.utilityMenu ul li.acctNav a.active {
+    background-color: #C64322;
+}
+nav.utilityMenu ul li.acctNav a:hover {
+    background-color: rgba(252, 252, 243, 0.7);
+    color: #C64322;
+}
+nav.utilityMenu ul li.acctNav a, nav.utilityMenu ul li.acctNav a:visited {
+    text-decoration: none;
+    display: inline-block;
+    height: 1.2em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+section #main {
+    background-color: rgba(153, 152, 146, 0.7);
+    margin: 0 0 3.0em;
+    padding: 1.5em 0em 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 5em;
+    box-shadow: 1px 1px 5px #777;
+}
+section div.panel{
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 0 7.0em 2.0em 5.0em;
+    padding: 1.0em;
+    background-color: rgb(91, 122, 121);
+    border: rgb(87, 85, 85) solid 1px;
+    border-radius: 0.6em;
+}
+section div.panel img.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
