@@ -132,3 +132,52 @@ section div.panel img.picture {
     margin-left: auto;
     margin-right: auto;
 }
+img {
+    border-radius: 20px;
+}
+footer {
+    background-color: rgb(91, 122, 121);
+    height: 25px;
+    font-size: 1.2em;
+    color: yellowgreen;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#footerMenu {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+    }
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+button {
+    color: #064347;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 1px solid #ffca7a;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #40f0f7;
+    border: 1px solid #20190c;
+}
